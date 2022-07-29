@@ -1,0 +1,36 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 2,
+  "settings": {
+    "color": {
+      "background": true,
+      "custom": true,
+      "customDuotone": true,
+      "customGradient": true,
+      "defaultGradients": true,
+      "defaultPalette": true,
+      "link": false,
+      "text": true,
+      "duotone": [
+        {
+          "colors": [
+            "#000",
+            "#FFF"
+          ],
+          "slug": "black-and-white",
+          "name": "Black and White"
+        }
+      ],
+      "gradients": [
+        {
+          "slug": "red-blue",
+          "gradient": "linear-gradient(90deg, rgb(255,0,0) 0%, rgb(0,0,255) 50%",
+          "name": "Red to blue"
+        }
+      ]
+    }
+  },
+  "styles": {},
+  "customTemplates": [],
+  "templateParts": []
+}

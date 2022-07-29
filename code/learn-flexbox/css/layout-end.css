@@ -1,0 +1,30 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  padding: 20px;
+}
+
+* {box-sizing: border-box;}
+
+.container {
+  display: flex;
+  flex-direction: column;
+
+  margin: 0 auto;
+  
+  height: 600px;
+  width: 400px;
+
+  border: 5px solid rgb(40,30,93);
+  border-radius: .5em;
+}
+
+.content {
+  flex: 1 1 auto;
+  padding: 10px;
+}
+
+header, footer {
+  padding: 10px;
+  background-color: rgba(22,33,166,.6);
+  color: rgb(255,255,255)
+}

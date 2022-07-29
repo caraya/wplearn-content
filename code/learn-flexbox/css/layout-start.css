@@ -1,0 +1,29 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  padding: 20px;
+}
+
+* {box-sizing: border-box;}
+
+.container {
+  /* The flex-related properties go here */
+
+  height: 300px;
+  width: 200px;
+
+  margin: 0 auto;
+
+  border: 5px solid rgb(40,30,93);
+  border-radius: .5em;
+}
+
+.content {
+  /* The flex property goes here */ 
+  padding: 10px;
+}
+
+header, footer {
+  padding: 10px;
+  background-color: rgb(22,33,166);
+  color: rgb(255,255,255)
+}

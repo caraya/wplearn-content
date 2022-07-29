@@ -1,0 +1,22 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.row-layout {
+  padding: .5vw;
+  flex-flow: row wrap;
+  display: flex;
+}
+
+.box {
+  margin: .5vw;
+  border: 1px solid #444;
+  padding: .5vw;
+  flex: 1 0 auto;
+  width: 300px;
+  
+}
+.box img {
+  width: 100%;
+  height: auto;
+}

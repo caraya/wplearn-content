@@ -1,0 +1,23 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",         
+  "version": 2,
+  "settings": {},
+  "styles": {},
+  "customTemplates": [],
+  "templateParts": [
+    {
+      "name": "comments",
+      "title": "Comments"
+    },
+    {
+      "name": "footer",
+      "title": "Footer",
+      "area": "footer"
+    },
+    {
+      "name": "header",
+      "title": "Header",
+      "area": "header"
+    }
+  ]
+}
